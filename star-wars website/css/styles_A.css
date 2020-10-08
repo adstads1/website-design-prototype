@@ -5,7 +5,7 @@ body{
     background-repeat: no-repeat;/*prevents the background from repeating*/
     background-attachment: fixed;
     background-position: 50% 120px;/*50% means centering the image. 100px means 100 from the top. The background has to apear after the header thats why 120px was chosen*/
-    font-family: 'Ubuntu', sans-serif;/*Nice font type. Might use on corusework*/
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     
 }
