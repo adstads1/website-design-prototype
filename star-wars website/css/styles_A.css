@@ -25,11 +25,11 @@ h1{
 }
 
 .contact-wrap{/*container is a div which covers almost the whole page. Regardless the size of the window, the website doesn't move texts and images down.*/
-    width: 900px;/* might be a good idea to use this in your coursework */
+    width: 900px;
     margin: auto;
     min-height: 100%;/*it will automatically fill the content. it's tnot a fixed width but stretches*/
     background-color: white;
-    opacity: 0.85;/* a light transparent shade to the background. You can see the background but it isn't as intense.YOU MIGHT WANT to use opacity for coursework*/
+    opacity: 0.85;
 }
 
 /*--Makes the text centered and increases the height of the footer*/
