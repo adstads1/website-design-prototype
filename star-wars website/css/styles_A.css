@@ -1,0 +1,99 @@
+body{
+    background-color:#000033;
+    background-image: url("../images/Star-Wars-BG2.png");/*the files of the images is not the html files its the css file (style_A.css.) The path is to go one folder out from the css file. THen you go to the images folder and then calling the star wars image*/
+    background-size:900px;/*puts the images to the center*/
+    background-repeat: no-repeat;/*prevents the background from repeating*/
+    background-attachment: fixed;
+    background-position: 50% 120px;/*50% means centering the image. 100px means 100 from the top. The background has to apear after the header thats why 120px was chosen*/
+    font-family: 'Ubuntu', sans-serif;/*Nice font type. Might use on corusework*/
+    font-size: 14px;
+    
+}
+
+h1{
+    font-family: 'VT323', monospace;/*sets a new fon to the header(s)*/
+    color: #e68a00;/*changes the name of the star wars names to orange*/
+    font-size: 32px;
+    font-stretch: expanded;
+    letter-spacing: 5px;/*adds spacing to the letters*/
+    text-shadow:1px 1.5px black;/* makes a shadow to the text*/
+}
+
+#header{background: #03A7A4;
+        border-bottom: 2px double #1200B5;/*creates a blue border line at the header.*/
+        padding: 10px;/*moves the images on the header(green background) a bit to the center*/ 
+}
+
+.contact-wrap{/*container is a div which covers almost the whole page. Regardless the size of the window, the website doesn't move texts and images down.*/
+    width: 900px;/* might be a good idea to use this in your coursework */
+    margin: auto;
+    min-height: 100%;/*it will automatically fill the content. it's tnot a fixed width but stretches*/
+    background-color: white;
+    opacity: 0.85;/* a light transparent shade to the background. You can see the background but it isn't as intense.YOU MIGHT WANT to use opacity for coursework*/
+}
+
+/*--Makes the text centered and increases the height of the footer*/
+#footer{
+    background:  #D4034A;
+    text-align: center;
+    font-size: smaller;
+    line-height: 50px;/*Increases the size of the footer*/
+}
+
+.left{
+    margin-left: 5px;/*moves the logo a bit to the right*/
+}
+.right{
+    float: right;/*moves the search and basket image towards the right*/
+    padding-top:20px;/*lowers the image a bit lower*/
+}
+
+.column-left{
+    background:#87d5d3;
+    width: 150px;
+    float: left;/*Moves everything within the div to the left*/
+    padding:19px;
+    padding-bottom: 32px;/*increases the length of the right blue box*/
+    border-bottom: 1px solid #CF094C;
+}
+.column-middle{
+    background: #E3DEDE;/*Makes the semi transparent background colour a darker grey colour*/
+    width: 601px;
+    float: left;
+    padding-left: 10px;/*moves the center of the texts and images to the left*/
+    min-height:  200px;/*moves the middle section a bit lower*/
+    border-bottom: 1px solid #CF094C;
+    border-right: 1px inset #A2999A;/*inset line put on the right side of the middle section webpage*/
+}
+
+/*Adds the different layout to the right column. Same thing as the other .column divs. In this case a beige colour*/
+.column-right{
+    background: #f4AA4B;
+    width: 65px;
+    float: left;
+    border-bottom: 1px solid #CF094C;
+    padding: 25px/*25 pixels for the top*/ 5px /*5px for the right*/ 0px /* 0px on the bottom*/ 30px;/*30px on the left side*/
+    min-height: 175px;/* increases the lower part of the right column*/ 
+    /*Gives space to the wrapper*/
+    
+}
+
+/*Moves the three stars to the left of the middle section. proxmity and similarity are applied in here*/
+.rating-left{
+    float:left;
+    padding-top: 10px;
+}
+
+/*Moves the heart image to the right from the middle section*/
+.rating-right{
+    float:right;
+    padding-top: 10px;
+    padding-right: 20px;/*Moves the heart icon a little to the center and not to the edge*/
+}
+
+
+/*The information on the left is put properly there. Also it limits the size of the image to a specific resolution as seen below of height and width*/
+.thumbnail{
+    width: 149px;
+    height: 146;
+}
