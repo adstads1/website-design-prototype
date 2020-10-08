@@ -3,7 +3,7 @@
 A simple website where I developed my web designing skills.
 The website mimics the design of a website that sells Star wars stamps. As you can see I've only focused the front end of the website.
 
-![](website screenshot.png)
+![](websitescreenshot.png)
 
 This project solified my knowledge of:
 * The HCI design principles
