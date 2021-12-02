@@ -5,7 +5,7 @@ The website mimics the design of a website that sells Star wars stamps. As you c
 
 ![](websiteScreenshot.PNG)
 
-This project solified my knowledge of:
+This project solidified my knowledge of:
 * The HCI design principles
 * The Web Design principles
 * View of closure, proximity, continuation and similarities to the user's eye
